@@ -12,17 +12,6 @@
   text-align: left;
 }
 
-.item h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
-.item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
-
 .item.tokyo {
   margin-top: 32px;
 }
