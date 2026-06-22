@@ -26,7 +26,6 @@
 }
 
 .card-category a {
-  font-size: 28px;
   color: var(--text-primary-color);
   text-decoration: none;
 }
