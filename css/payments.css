@@ -1,9 +1,15 @@
+.payments .content-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .payments .image-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   height: 460px;
   margin-top: 24px;
+  width: 100%;
 }
 
 .payments .image-gallery .image {
@@ -36,5 +42,20 @@
   .payments .image-gallery .image.third {
     background-image: url(../img/gallery3-tablet.png);
     grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .image-gallery {
+    width: 790px;
+    margin-top: 0px;
   }
 }
