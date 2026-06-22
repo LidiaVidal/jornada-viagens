@@ -1,0 +1,40 @@
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+}
+
+.payments .image-gallery .image {
+  background-position: center center;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.first {
+  background-image: url(../img/gallery1-mobile.png);
+}
+
+.payments .image-gallery .image.second {
+  background-image: url(../img/gallery2-mobile.png);
+}
+
+.payments .image-gallery .image.third {
+  background-image: url(../img/gallery3-mobile.png);
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .image-gallery .image.first {
+    background-image: url(../img/gallery1-tablet.png);
+  }
+
+  .payments .image-gallery .image.second {
+    background-image: url(../img/gallery2-tablet.png);
+  }
+
+  .payments .image-gallery .image.third {
+    background-image: url(../img/gallery3-tablet.png);
+    grid-column: span 2;
+  }
+}
