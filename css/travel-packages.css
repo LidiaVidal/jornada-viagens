@@ -30,3 +30,28 @@
 }
 
 
+.destinations.travelPackages {
+  margin-top: 88px;
+}
+
+.text-payments {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text-payments h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
+.text-payments h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.text-payments p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
