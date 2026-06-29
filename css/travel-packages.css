@@ -17,8 +17,8 @@
 }
 
 .contentHero p {
-    font-size: 20px;
-    font-weight: var(--text-weight);
+  font-size: 20px;
+  font-weight: var(--text-weight);
 }
 
 .section-title.travelPackages {
@@ -28,7 +28,6 @@
 .section-title.travelPackages h1 {
   font-size: 48px;
 }
-
 
 .destinations.travelPackages {
   margin-top: 88px;
@@ -56,10 +55,6 @@
   line-height: 32px;
 }
 
-.button.travelPackages {
-  width: 312px;
-}
-
 .image-gallery .image.first.travelPackages {
   background-image: url(../img/travel-packages/first-image.jpg);
 }
@@ -70,4 +65,35 @@
 
 .image-gallery .image.third.travelPackages {
   background-image: url(../img/travel-packages/third-image.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .hero.travelPackages {
+    height: 620px;
+    background-image: url(../img/travel-packages/hero-bg-tablet.jpg);
+  }
+
+  .contentHero {
+    width: 579px;
+    padding: 0px;
+    margin: 208px 68px 108px 120px;
+  }
+
+  .contentHero p {
+    font-size: 32px;
+    line-height: 150%;
+    font-weight: var(--text-weight);
+  }
+
+  .image-gallery .image.first.travelPackages {
+  background-image: url(../img/travel-packages/first-image-tablet.jpg);
+}
+
+.image-gallery .image.second.travelPackages {
+  background-image: url(../img/travel-packages/second-image-tablet.jpg);
+}
+
+.image-gallery .image.third.travelPackages {
+  background-image: url(../img/travel-packages/third-image-tablet.jpg);
+}
 }
