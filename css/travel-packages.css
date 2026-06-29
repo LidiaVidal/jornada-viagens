@@ -55,3 +55,19 @@
   font-weight: var(--text-weight);
   line-height: 32px;
 }
+
+.button.travelPackages {
+  width: 312px;
+}
+
+.image-gallery .image.first.travelPackages {
+  background-image: url(../img/travel-packages/first-image.jpg);
+}
+
+.image-gallery .image.second.travelPackages {
+  background-image: url(../img/travel-packages/second-image.jpg);
+}
+
+.image-gallery .image.third.travelPackages {
+  background-image: url(../img/travel-packages/third-image.jpg);
+}
