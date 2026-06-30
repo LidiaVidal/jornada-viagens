@@ -1,0 +1,124 @@
+.hero.travelPackages {
+  height: 460px;
+  width: 100%;
+  background-image: url(../img/travel-packages/hero-bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentHero {
+  width: 312px;
+  color: var(--text-second-color);
+  text-align: left;
+  padding: 65px 24px;
+}
+
+.contentHero p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.section-title.travelPackages {
+  margin: 0;
+}
+
+.section-title.travelPackages h1 {
+  font-size: 48px;
+}
+
+.destinations.travelPackages {
+  margin-top: 88px;
+}
+
+.text-payments {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text-payments h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
+.text-payments h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.text-payments p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.image-gallery .image.first.travelPackages {
+  background-image: url(../img/travel-packages/first-image.jpg);
+}
+
+.image-gallery .image.second.travelPackages {
+  background-image: url(../img/travel-packages/second-image.jpg);
+}
+
+.image-gallery .image.third.travelPackages {
+  background-image: url(../img/travel-packages/third-image.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .list-links.travelPackages > li > a:active {
+    text-decoration: underline;
+    color: var(--text-second-color);
+  }
+
+  .hero.travelPackages {
+    height: 620px;
+    background-image: url(../img/travel-packages/hero-bg-tablet.jpg);
+  }
+
+  .contentHero {
+    width: 579px;
+    padding: 0px;
+    margin: 208px 68px 108px 120px;
+  }
+
+  .contentHero p {
+    font-size: 32px;
+    line-height: 150%;
+    font-weight: var(--text-weight);
+  }
+
+  .image-gallery .image.first.travelPackages {
+    background-image: url(../img/travel-packages/first-image-tablet.jpg);
+  }
+
+  .image-gallery .image.second.travelPackages {
+    background-image: url(../img/travel-packages/second-image-tablet.jpg);
+  }
+
+  .image-gallery .image.third.travelPackages {
+    background-image: url(../img/travel-packages/third-image-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contentHero {
+    margin: 158px 740px 158px 120px;
+  }
+
+  .hero.travelPackages {
+    background-image: url(../img/travel-packages/hero-bg-desktop.jpg);
+  }
+
+  .payments-content {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+
+  .text-payments {
+    width: 384px;
+  }
+}
