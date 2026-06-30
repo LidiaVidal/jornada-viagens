@@ -68,6 +68,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .list-links.travelPackages > li > a:active {
+      text-decoration: underline;
+      color: var(--text-second-color);
+  }
+
   .hero.travelPackages {
     height: 620px;
     background-image: url(../img/travel-packages/hero-bg-tablet.jpg);
@@ -86,14 +91,35 @@
   }
 
   .image-gallery .image.first.travelPackages {
-  background-image: url(../img/travel-packages/first-image-tablet.jpg);
+    background-image: url(../img/travel-packages/first-image-tablet.jpg);
+  }
+
+  .image-gallery .image.second.travelPackages {
+    background-image: url(../img/travel-packages/second-image-tablet.jpg);
+  }
+
+  .image-gallery .image.third.travelPackages {
+    background-image: url(../img/travel-packages/third-image-tablet.jpg);
+  }
 }
 
-.image-gallery .image.second.travelPackages {
-  background-image: url(../img/travel-packages/second-image-tablet.jpg);
-}
 
-.image-gallery .image.third.travelPackages {
-  background-image: url(../img/travel-packages/third-image-tablet.jpg);
-}
+@media screen and (min-width:1440px) {
+  .contentHero {
+    margin: 158px 740px 158px 120px;
+  }
+
+  .hero.travelPackages {
+    background-image: url(../img/travel-packages/hero-bg-desktop.jpg);
+  }
+
+  .payments-content {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+  }
+
+  .text-payments {
+    width: 384px;
+  }
 }
