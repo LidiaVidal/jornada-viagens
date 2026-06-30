@@ -69,8 +69,8 @@
 
 @media screen and (min-width: 768px) {
   .list-links.travelPackages > li > a:active {
-      text-decoration: underline;
-      color: var(--text-second-color);
+    text-decoration: underline;
+    color: var(--text-second-color);
   }
 
   .hero.travelPackages {
@@ -103,8 +103,7 @@
   }
 }
 
-
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .contentHero {
     margin: 158px 740px 158px 120px;
   }

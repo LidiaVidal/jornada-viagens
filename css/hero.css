@@ -1,6 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img, 
-.bottom-hero .hero-img.travelPackages{
+.bottom-hero .hero-img,
+.bottom-hero .hero-img.travelPackages {
   height: 400px;
   width: 100%;
 }
@@ -46,7 +46,8 @@
 
   .bottom-hero .hero-img.travelPackages {
     height: 400px;
-    background: url(../img/travel-packages/bg-bottom-hero-travelPackages-tablet.jpg) no-repeat;
+    background: url(../img/travel-packages/bg-bottom-hero-travelPackages-tablet.jpg)
+      no-repeat;
     background-size: cover;
   }
 
@@ -69,14 +70,13 @@
   }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
   .bottom-hero .hero-img.travelPackages {
     height: 600px;
-    background: url(../img/travel-packages/bg-bottom-hero-travelPackages-desktop.jpg) no-repeat;
-
+    background: url(../img/travel-packages/bg-bottom-hero-travelPackages-desktop.jpg)
+      no-repeat;
   }
 }
-
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
