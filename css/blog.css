@@ -63,6 +63,25 @@
   height: 300px;
   margin: 32px auto 8px;
 }
+/* Destinations */
+.destinations.blog .img-item {
+  height: 300px;
+  background-position: center center;
+  margin-bottom: 16px;
+}
+
+.destinations.blog > .img-item.osaka {
+  background-image: url(../img/blog/osaka-mobile.jpg);
+}
+
+.destinations.blog .img-item.hiroshima {
+  background-image: url(../img/blog/hiroshima-mobile.jpg);
+}
+
+.destinations.blog .img-item.kyoto {
+  background-image: url(../img/blog/kyoto-mobile.jpg);
+}
+
 
 @media screen and (min-width: 768px) {
   .hero.blog {
