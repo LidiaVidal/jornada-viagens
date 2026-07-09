@@ -24,6 +24,90 @@
   margin-bottom: 16px;
 }
 
+.forms {
+  text-align: center;
+  margin-top: 88px;
+}
+
+.forms p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 56px;
+}
+
+.forms > form .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.forms > form {
+  width: 312px;
+}
+
+.forms > form input,
+.forms > form textarea {
+  width: 100%;
+}
+
+.forms > form input {
+  height: 40px;
+  margin-bottom: 64px;
+
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: #8c8c8c;
+
+  border: none;
+  border-bottom: 3px solid #d9d9d9;
+}
+
+.forms > form input:focus {
+  border: none;
+  border-bottom: 3px solid var(--secondary-color);
+  outline: none;
+}
+
+.forms > form textarea {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: #8c8c8c;
+  height: 90px;
+  border-radius: 8px;
+  border: 3px solid #d9d9d9;
+}
+
+.forms > form textarea:focus {
+  border: 3px solid var(--secondary-color);
+  outline: none;
+}
+
+.forms > form > #text-label {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: #8c8c8c;
+  text-align: left;
+  margin-right: 230px;
+  margin-bottom: 8px;
+}
+
+.button.contato {
+  width: 312px;
+  height: 64px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  margin-top: 32px;
+  font-size: 20px;
+}
 @media screen and (min-width: 768px) {
   .hero.contato {
     height: 620px;
@@ -40,6 +124,31 @@
   .contentHero.contato .section-title.contato h1 {
     width: 454px;
   }
+
+  .forms p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .forms > form {
+    width: 648px;
+  }
+
+  .forms > form > #text-label {
+    margin-right: 566px;
+    margin-bottom: 8px;
+  }
+
+  .button.contato {
+    width: 280px;
+    height: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .forms > form {
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -48,5 +157,18 @@
   }
   .contentHero.contato {
     margin: 208px 740px 156px 120px;
+  }
+
+  .forms > form {
+    width: 790px;
+  }
+
+  .forms > form > #text-label {
+    margin-right: 708px;
+  }
+
+  .number-email {
+    display: flex;
+    gap: 24px;
   }
 }
