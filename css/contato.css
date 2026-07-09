@@ -153,8 +153,12 @@
 
 @media screen and (min-width: 1440px) {
   .hero.contato {
+    height: 620px;
     background-image: url(../img/contato/hero-bg-desktop.jpg);
+    background-position: center center;
+    align-items: start;
   }
+
   .contentHero.contato {
     margin: 208px 740px 156px 120px;
   }
