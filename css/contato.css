@@ -1,0 +1,52 @@
+.hero.contato {
+  height: 460px;
+  width: 100%;
+  background-image: url(../img/contato/hero-bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentHero.contato {
+  margin: 80px 24px;
+  padding: 0px;
+}
+
+.contentHero.contato .section-title.contato {
+  margin: 0px;
+}
+
+.contentHero.contato .section-title.contato h1 {
+  width: 272px;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero.contato {
+    height: 620px;
+    background-image: url(../img/contato/hero-bg-tablet.jpg);
+    align-items: start;
+  }
+
+  .contentHero.contato {
+    width: 549px;
+    padding: 0px;
+    margin: 184px 94px;
+  }
+
+  .contentHero.contato .section-title.contato h1 {
+    width: 454px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero.contato {
+    background-image: url(../img/contato/hero-bg-desktop.jpg);
+  }
+  .contentHero.contato {
+    margin: 208px 740px 156px 120px;
+  }
+}
