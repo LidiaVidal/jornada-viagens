@@ -50,12 +50,18 @@
 
 .content-blog > section img {
   width: 312px;
+  object-fit: cover;
 }
 
 .content.chegada {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.content-blog .content.acomodacao > figure > img {
+  height: 300px;
+  margin: 32px auto 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -82,6 +88,10 @@
   .content.chegada {
     flex-direction: row;
   }
+
+  .content-blog .content.acomodacao > figure > img {
+    width: 648px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -99,5 +109,10 @@
   .content-blog > section img {
     width: 588px;
     height: 360px;
+  }
+
+  .content-blog .content.acomodacao > figure > img {
+    width: 1200px;
+    margin-top: 48px;
   }
 }
