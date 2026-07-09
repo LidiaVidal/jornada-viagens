@@ -63,6 +63,7 @@
   height: 300px;
   margin: 32px auto 8px;
 }
+
 /* Destinations */
 .destinations.blog .img-item {
   height: 300px;
@@ -111,6 +112,8 @@
     width: 648px;
   }
 
+  /* Destinations */
+
   .destinations.blog .img-item {
     width: 648px;
   }
@@ -149,6 +152,8 @@
     width: 1200px;
     margin-top: 48px;
   }
+
+  /* Destinations */
 
   .destinations-items {
     flex-direction: row;
