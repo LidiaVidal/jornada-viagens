@@ -82,7 +82,6 @@
   background-image: url(../img/blog/kyoto-mobile.jpg);
 }
 
-
 @media screen and (min-width: 768px) {
   .hero.blog {
     height: 620px;
@@ -111,6 +110,22 @@
   .content-blog .content.acomodacao > figure > img {
     width: 648px;
   }
+
+  .destinations.blog .img-item {
+    width: 648px;
+  }
+
+  .destinations.blog > .img-item.osaka {
+    background-image: url(../img/blog/osaka-tablet.jpg);
+  }
+
+  .destinations.blog .img-item.hiroshima {
+    background-image: url(../img/blog/hiroshima-tablet.jpg);
+  }
+
+  .destinations.blog .img-item.kyoto {
+    background-image: url(../img/blog/kyoto-tablet.jpg);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -133,5 +148,35 @@
   .content-blog .content.acomodacao > figure > img {
     width: 1200px;
     margin-top: 48px;
+  }
+
+  .destinations-items {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 auto;
+  }
+
+  
+  .destinations.blog .item, .destinations.blog .item > p, .destinations.blog .img-item {
+    width: 384px;
+  }
+
+  .destinations.blog .item > p{
+    width: 384px;
+  }
+ 
+
+  .destinations.blog > .img-item.osaka {
+    background-image: url(../img/blog/osaka-tablet.jpg);
+  }
+
+  .destinations.blog .img-item.hiroshima {
+    background-image: url(../img/blog/hiroshima-tablet.jpg);
+  }
+
+  .destinations.blog .img-item.kyoto {
+    background-image: url(../img/blog/kyoto-tablet.jpg);
   }
 }
