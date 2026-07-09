@@ -7,26 +7,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 32px;
 }
 
 .contentHero {
-  width: 312px;
   color: var(--text-second-color);
   text-align: left;
   padding: 65px 24px;
 }
 
 .contentHero p {
+  width: 312px;
   font-size: 20px;
   font-weight: var(--text-weight);
 }
 
 .section-title.travelPackages {
   margin: 0;
+  margin-bottom: 32px;
 }
 
 .section-title.travelPackages h1 {
   font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.section-title.travelPackages hr {
+  margin: 0px;
 }
 
 .destinations.travelPackages {
@@ -79,12 +86,12 @@
   }
 
   .contentHero {
-    width: 579px;
     padding: 0px;
     margin: 208px 68px 108px 120px;
   }
 
   .contentHero p {
+    width: 579px;
     font-size: 32px;
     line-height: 150%;
     font-weight: var(--text-weight);
